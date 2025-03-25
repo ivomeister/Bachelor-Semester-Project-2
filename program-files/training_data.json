@@ -1,0 +1,310 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "how many infected", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "how many infected this weekend", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "are there more infected", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "where is the outbreak", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "are there new cases", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "where does the virus spread", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "how many infected with corona", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "how many infected with covid", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "where has the coronavirus spread", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "how many new cases", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "where are the most infected", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "which countries are affected", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "which countries have corona", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "how many coronavirus cases", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "how fast does the coronavirus spread", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "does the virus spread fast", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "where has corona spread the most", 
+        "intent": "coronavirus spread"
+      }, 
+      {
+        "text": "will there be a lockdown", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "what is the government's response to covid19", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "why was lockdown not done earlier", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "why was lockdown not announced on an earlier date", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "why was lockdown not implemented on a prior date", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "do i have to work from home", 
+        "intent": "measures compliance"
+      }, 
+      {
+        "text": "will we need to work from home", 
+        "intent": "measures compliance"
+      }, 
+      {
+        "text": "when does the lockdown end", 
+        "intent": "measures duration"
+      }, 
+      {
+        "text": "will the lockdown be over soon", 
+        "intent": "measures duration"
+      }, 
+      {
+        "text": "has the government declared lockdown", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "what is social distancing", 
+        "intent": "basic information"
+      }, 
+      {
+        "text": "can social distancing help", 
+        "intent": "measures effectiveness"
+      }, 
+      {
+        "text": "why are people social distancing", 
+        "intent": "basic information"
+      }, 
+      {
+        "text": "do i have to spend the weekend in lockdown", 
+        "intent": "measures compliance"
+      }, 
+      {
+        "text": "should you do social distancing", 
+        "intent": "measures compliance"
+      }, 
+      {
+        "text": "why do we need covid measures", 
+        "intent": "measures necessity"
+      }, 
+      {
+        "text": "do the measures help", 
+        "intent": "measures effectiveness"
+      }, 
+      {
+        "text": "is there a reason for the lockdown", 
+        "intent": "measures necessity"
+      }, 
+      {
+        "text": "why is there a lockdown", 
+        "intent": "measures necessity"
+      }, 
+      {
+        "text": "does lockdown help", 
+        "intent": "measures effectiveness"
+      }, 
+      {
+        "text": "do masks help", 
+        "intent": "measures effectiveness"
+      }, 
+      {
+        "text": "is there going to be a lockdown", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "are they putting other measures", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "will the government place measures", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "will there be better measures", 
+        "intent": "measures announcement"
+      }, 
+      {
+        "text": "what is coronavirus", 
+        "intent": "origin"
+      }, 
+      {
+        "text": "what is covid", 
+        "intent": "origin"
+      },
+      {
+        "text": "where did covid come from", 
+        "intent": "origin"
+      },
+      {
+        "text": "how to know if i have covid", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "how to know if i have covid19", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "am i infected", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "am i sick", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "what are the symptoms", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "how do you know if you have coronavirus", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "what should i know about coronavirus", 
+        "intent": "self protection"
+      }, 
+      {
+        "text": "what should i know about the virus", 
+        "intent": "self protection"
+      }, 
+      {
+        "text": "what to know about coronavirus", 
+        "intent": "self protection"
+      }, 
+      {
+        "text": "where is covid19 testing done", 
+        "intent": "self protection"
+      }, 
+      {
+        "text": "how to protect yourself against covid", 
+        "intent": "self protection"
+      },
+      {
+        "text": "how to protect yourself against coronavirus", 
+        "intent": "self protection"
+      },
+      {
+        "text": "what measures to take to prevent covid", 
+        "intent": "self protection"
+      },
+      {
+        "text": "what measures to take against coronavirus", 
+        "intent": "self protection"
+      },
+      {
+        "text": "is there treatment for covid", 
+        "intent": "self protection"
+      },
+      {
+        "text": "is there treatment for corona", 
+        "intent": "self protection"
+      },
+      {
+        "text": "what is the treatment for covid", 
+        "intent": "self protection"
+      },
+      {
+        "text": "what is the treatment for corona", 
+        "intent": "self protection"
+      },
+      {
+        "text": "how can we get informed about the virus", 
+        "intent": "further information"
+      }, 
+      {
+        "text": "where can you inform yourself about covid", 
+        "intent": "further information"
+      }, 
+      {
+        "text": "where can you inform yourself about coronavirus", 
+        "intent": "further information"
+      },
+      {
+        "text": "where can you inform yourself about covid19", 
+        "intent": "further information"
+      },
+      {
+        "text": "what is happening now with the virus", 
+        "intent": "coronavirus spread"
+      },
+      {
+        "text": "what is going on with the pandemic", 
+        "intent": "coronavirus spread"
+      },
+      {
+        "text": "how can i learn more about coronavirus", 
+        "intent": "further information"
+      },
+      {
+        "text": "how can i learn more about covid19", 
+        "intent": "further information"
+      },
+      {
+        "text": "how does covid affect you", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "how does covid affect your health", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "what does covid do to you", 
+        "intent": "symptoms"
+      },
+      {
+        "text": "why does the virus spread so quickly", 
+        "intent": "coronavirus spread"
+      },
+      {
+        "text": "what is going on with the pandemic", 
+        "intent": "coronavirus spread"
+      }
+    ]
+  }
+}
